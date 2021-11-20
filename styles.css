@@ -1,0 +1,328 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+::-webkit-scrollbar-track {
+	background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #555;
+}
+
+body,
+html {
+	height: 100%;
+	align-items: center;
+}
+
+body {
+	font-family: source sans pro;
+}
+
+h3 {
+	display: block;
+	text-align: center;
+	font-size: 28px;
+	font-weight: bold;
+	font-style: italic;
+	padding-left: 17px;
+	padding-right: 17px;
+}
+
+h1 {
+	padding-top: 30px;
+}
+header {
+	color: rgba(15, 15, 15, 0.829);
+	background-image: url("./assets/img/bg-masthead.jpg");
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	background-size: cover;
+	background-attachment: scroll;
+	padding: 128px 0 70px 0;
+	background-position: 50% 50%;
+}
+
+.melynas_mygtukas,
+.juodas_mygtukas,
+.baltas_mygtukas {
+	box-sizing: border-box;
+	border: none;
+	font-size: 15px;
+	cursor: pointer;
+	margin-right: 24px;
+	padding: 27px 45px;
+	border-radius: 4px;
+	display: inline-block;
+}
+
+.melynas_mygtukas {
+	background-color: #1d809f;
+	color: white;
+	margin: 50px auto 70px;
+}
+
+.juodas_mygtukas {
+	margin-top: 45px;
+	margin-bottom: 100px;
+	color: #fff;
+	background-color: #212529;
+	width: 190px;
+	align-self: center;
+}
+
+p {
+	text-align: center;
+	font-size: 20px;
+	line-height: 30px;
+	color: #847ea2;
+}
+.zemelapis {
+	width: 100%;
+	background-image: url("./assets/img/map.JPG");
+	height: 400px;
+}
+
+h1 {
+	font-size: 64px;
+	font-weight: 700;
+	text-align: center;
+}
+
+.baltas {
+	display: flex;
+	justify-items: center;
+	flex-direction: column;
+	padding-top: 110px;
+	padding-right: 20px;
+	padding-left: 20px;
+	background-color: #f8f9fa;
+}
+
+h2 {
+	font-weight: 700;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+a {
+	color: rgb(29, 128, 159);
+}
+
+.melynas_pirmas {
+	background-color: rgb(29, 128, 159);
+	padding-bottom: 120px;
+	color: white;
+}
+
+.offer {
+	font-size: 50px;
+	padding-top: 0 !important;
+	padding-bottom: 0;
+}
+.ikoneles {
+	display: flex;
+	align-items: center;
+	padding: 20px;
+}
+
+.ikoneles div {
+	background-color: white;
+	border-radius: 50% 50%;
+	width: 120px;
+	height: 120px;
+	background-size: 28px;
+	background-repeat: no-repeat;
+	background-position-x: center;
+	background-position-y: center;
+	margin: 50px auto 10px;
+}
+
+.antraste {
+	font-size: 21px;
+	font-weight: 700px;
+}
+
+.ikonele1 {
+	background-image: url("./assets/mobile-alt-solid.svg");
+}
+
+.ikonele2 {
+	background-image: url("./assets/pen-solid.svg");
+}
+
+.ikonele3 {
+	background-image: url("./assets/thumbs-up-regular.svg");
+}
+
+.ikonele4 {
+	background-image: url("./assets/moustache-outline-svgrepo-com.svg");
+}
+
+.poapacia {
+	text-align: center;
+	font-weight: 400;
+	font-size: 16px;
+	color: rgb(192, 214, 221);
+}
+.yellow h2 {
+	font-size: 58px;
+	padding: 200px 30px 5px;
+}
+
+.ikoneles {
+	display: flex;
+	flex-direction: column;
+}
+.yellow {
+	background-image: url("./assets/img/bg-callout.jpg");
+	display: flex;
+	flex-direction: column;
+	background-size: cover;
+}
+
+.melynas_mygtukas {
+	align-items: center;
+	margin-bottom: 220px;
+}
+
+.didysis {
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 0px 30px 110px;
+}
+
+.didysis h2 {
+	color: rgb(33, 37, 41);
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 58px;
+	text-align: center;
+	padding: 0 30px 30px;
+}
+
+.kvadratas1 {
+	background-image: url("./assets/img/portfolio-1.jpg");
+}
+
+.kvadratas2 {
+	background-image: url("./assets/img/portfolio-2.jpg");
+}
+
+.kvadratas3 {
+	background-image: url("./assets/img/portfolio-3.jpg");
+}
+
+.kvadratas4 {
+	background-image: url("./assets/img/portfolio-4.jpg");
+}
+
+.kvadratas1,
+.kvadratas2,
+.kvadratas3,
+.kvadratas4 {
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	margin: 8px 0;
+	align-content: center;
+	min-width: 100%;
+	max-width: 492px;
+	height: 240px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 40px;
+	justify-content: flex-end;
+}
+
+.kvadrate {
+	color: white !important;
+	text-align: left;
+	font-weight: 700;
+	font-size: 13px;
+	font-style: normal;
+	padding: 0;
+}
+
+.kvadratep {
+	line-height: 30px;
+	color: rgb(192, 214, 221);
+	text-align: left;
+}
+
+.melynas_pirmas .baltas_mygtukas,
+.melynas_pirmas .juodas_mygtukas {
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+	margin-left: 70px;
+}
+
+.melynas_pirmas .juodas_mygtukas {
+	width: 170px;
+}
+.services {
+	color: rgb(248, 186, 5);
+	text-align: center;
+	font-size: 16px;
+	line-height: 24px;
+	font-style: normal;
+	padding-top: 100px;
+}
+
+h5 {
+	color: white;
+	font-size: 25px;
+	padding: 100px 15px 20px 15px;
+	text-align: center;
+}
+
+.rutuliukai {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding: 75px 50px 30px;
+}
+
+.ikona {
+	border-radius: 50% 50%;
+	width: 64px;
+	height: 64px;
+	background-color: rgb(29, 128, 159);
+	background-size: 28px;
+	background-repeat: no-repeat;
+	background-position-x: center;
+	background-position-y: center;
+}
+.fb {
+	background-image: url("./assets/facebook-f-brands.svg");
+	background-size: 15px;
+}
+
+.twitter {
+	background-image: url("./assets/twitter-brands.svg");
+}
+
+.github {
+	background-image: url("./assets/github-brands.svg");
+}
+
+footer {
+	color: rgb(151, 147, 147);
+	font-size: small;
+	text-align: center;
+}
