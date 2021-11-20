@@ -51,7 +51,7 @@ header {
 	width: 100%;
 	background-size: cover;
 	background-attachment: scroll;
-	padding: 128px 0 70px 0;
+	padding: 128px 0 0 0;
 	background-position: 50% 50%;
 }
 
@@ -62,7 +62,7 @@ header {
 	border: none;
 	font-size: 15px;
 	cursor: pointer;
-	margin-right: 24px;
+	margin-right: 10px;
 	padding: 27px 45px;
 	border-radius: 4px;
 	display: inline-block;
@@ -122,6 +122,9 @@ a {
 }
 
 .melynas_pirmas {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 	background-color: rgb(29, 128, 159);
 	padding-bottom: 120px;
 	color: white;
@@ -138,7 +141,12 @@ a {
 	padding: 20px;
 }
 
-.ikoneles div {
+.slankiojimui {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.ikoneles div div {
 	background-color: white;
 	border-radius: 50% 50%;
 	width: 120px;
@@ -269,7 +277,7 @@ a {
 	display: flex;
 	flex-direction: column;
 	margin: 0;
-	margin-left: 70px;
+	margin-left: 40px;
 }
 
 .melynas_pirmas .juodas_mygtukas {
@@ -294,7 +302,7 @@ h5 {
 .rutuliukai {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
+	justify-content: center;
 	padding: 75px 50px 30px;
 }
 
@@ -307,6 +315,7 @@ h5 {
 	background-repeat: no-repeat;
 	background-position-x: center;
 	background-position-y: center;
+	margin: 0 7px;
 }
 .fb {
 	background-image: url("./assets/facebook-f-brands.svg");
